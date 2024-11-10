@@ -1,0 +1,29 @@
+CREATE DATABASE student_management;
+USE student_management;
+
+
+
+
+
+CREATE TABLE students (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Gender VARCHAR(10),
+    Department VARCHAR(50),
+    Year VARCHAR(10),
+    CrimeType VARCHAR(50),
+    CrimeDate DATE,
+    IncidentDescription TEXT,
+    Location VARCHAR(100),
+    WitnessNames VARCHAR(100),
+    ReportingStaff VARCHAR(50),
+    Punishment VARCHAR(50),
+    Status VARCHAR(20),
+    Remarks TEXT
+);
+
+
+
+
+
